@@ -41,7 +41,7 @@ const Register = () => {
         setLoading(true);
         setError(null);
         try {
-            const response = await axios.post(`${import.meta.env.VITE_API_BASE_URL}/auth/register`, {
+            const response = await axios.post(`${import.meta.env.VITE_API_BASE_URL}/api/auth/register`, {
                 name: data.name,
                 email: data.email,
                 password: data.password,

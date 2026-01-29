@@ -36,7 +36,7 @@ const Login = () => {
         setLoading(true);
         setError(null);
         try {
-            const response = await axios.post(`${import.meta.env.VITE_API_BASE_URL}/auth/login`, data);
+            const response = await axios.post(`${import.meta.env.VITE_API_BASE_URL}/api/auth/login`, data);
             const { user, accessToken, refreshToken } = response.data;
             dispatch(setCredentials({ user, accessToken, refreshToken }));
             navigate('/dashboard');
